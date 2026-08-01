@@ -52,7 +52,8 @@ def _save_metadata(entries: list) -> None:
 def _save_manifest(entries: list) -> None:
     lines = []
     for entry in entries:
-        line = f"{entry['timestamp']} | {entry['uuid']} | {entry['source']} | {entry['path']}"
+        path_value = entry.get('path', '-')
+        line = f"{entry['timestamp']} | {entry['uuid']} | {entry['source']} | {path_value}"
         lines.append(line)
     RAW_INDEX_FILE.write_text("\n".join(lines), encoding="utf-8")
 
@@ -115,20 +116,21 @@ def list_metadata() -> list:
 
 
 def capture_link(url: str, title: Optional[str] = None, source: str = "link") -> Dict[str, Any]:
-    """Capture a link/URL as a lightweight metadata-only entry.
-
-    Stores the URL and optional title in metadata; no file is created.
-    """
+    """Capture a link/URL and save it as a text file in the raw store."""
     _ensure_raw_dir()
     uid = str(uuid.uuid4())
-    ts = datetime.now(timezone.utc).isoformat()
+    ts = datetime.now(timezone.utc)
+    file_path, metadata_path = _build_capture_path(uid, ts, "txt")
+    payload = url if not title else f"{title}\n{url}"
+    file_path.write_text(payload, encoding="utf-8")
 
     entry = {
         "uuid": uid,
-        "timestamp": ts,
+        "timestamp": ts.isoformat(),
         "content_type": "link",
         "source": source,
         "url": url,
+        "path": metadata_path,
     }
 
     if title:
@@ -143,15 +145,19 @@ def capture_link(url: str, title: Optional[str] = None, source: str = "link") ->
 def main():
     import argparse
 
-    parser = argparse.ArgumentParser(description="Capture text or files into the SecondSelf raw store")
+    parser = argparse.ArgumentParser(description="Capture text, links, or files into the SecondSelf raw store")
     g = parser.add_mutually_exclusive_group(required=True)
-    g.add_argument("--text", help="Text to capture")
-    g.add_argument("--file", help="Path to file to capture")
-    parser.add_argument("--source", default="manual", help="Source label (e.g. web, email, clip)")
+    g.add_argument("-t", "--text", help="Text to capture")
+    g.add_argument("-f", "--file", help="Path to file to capture")
+    g.add_argument("-l", "--link", help="URL to capture")
+    parser.add_argument("--title", help="Optional title for a captured link")
+    parser.add_argument("-s", "--source", default="manual", help="Source label (e.g. web, email, clip)")
     args = parser.parse_args()
 
     if args.text:
         meta = capture_text(args.text, source=args.source)
+    elif args.link:
+        meta = capture_link(args.link, title=args.title, source=args.source)
     else:
         meta = capture_file(args.file, source=args.source)
 

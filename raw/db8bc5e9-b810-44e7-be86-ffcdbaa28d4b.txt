@@ -1,0 +1,1 @@
+Idea: small CLI tool for notes
