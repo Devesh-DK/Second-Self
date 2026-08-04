@@ -149,7 +149,7 @@ def render() -> None:
     graph_data = load_graph_data()
     st.subheader("Knowledge graph")
     graph_html = _render_graph_html(graph_data)
-st.iframe(graph_html, height=620, scrolling=False)
+    components_html(graph_html, height=620, scrolling=False)
 
 
 if __name__ == "__main__":
