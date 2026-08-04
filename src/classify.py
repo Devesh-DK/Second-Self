@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 from pathlib import Path
 from typing import Any, Dict, Optional
 
@@ -9,35 +10,13 @@ from src import capture, llm, storage
 PARA_CATEGORIES = ["Projects", "Areas", "Resources", "Archives"]
 
 
-def _heuristic_classification(text: str) -> Dict[str, Any]:
-    lowered = text.lower()
-
-    if any(word in lowered for word in ["project", "launch", "roadmap", "plan", "milestone", "build", "onboarding"]):
-        category = "Projects"
-    elif any(word in lowered for word in ["routine", "habit", "health", "finance", "home", "meeting", "admin"]):
-        category = "Areas"
-    elif any(word in lowered for word in ["resource", "guide", "tutorial", "reference", "article", "documentation", "book"]):
-        category = "Resources"
-    else:
-        category = "Archives"
-
-    tags = []
-    for keyword in ["project", "launch", "plan", "roadmap", "note", "idea", "learning", "finance", "health", "reference", "archive"]:
-        if keyword in lowered:
-            tags.append(keyword)
-
-    if not tags:
-        tags = [category.lower()]
-
-    summary = " ".join(text.split())
-    if len(summary) > 180:
-        summary = summary[:177] + "..."
-
+def _heuristic_classification(text: str, api_key: Optional[str] = None) -> Dict[str, Any]:
+    classification = llm.classify_content(text, api_key=api_key)
     return {
-        "category": category,
-        "tags": tags[:5],
-        "summary": summary,
-        "method": "heuristic",
+        "category": classification["para"],
+        "tags": classification["tags"],
+        "summary": classification["summary"],
+        "method": "groq" if api_key or os.getenv("GROQ_API_KEY") else "heuristic",
     }
 
 
@@ -65,7 +44,7 @@ def classify_capture(entry: Dict[str, Any], api_key: Optional[str] = None) -> Di
     if not text and entry.get("title"):
         text = entry["title"]
 
-    classification = _heuristic_classification(text or entry.get("source", ""))
+    classification = _heuristic_classification(text or entry.get("source", ""), api_key=api_key)
 
     entry["classification"] = classification
     entry["category"] = classification["category"]

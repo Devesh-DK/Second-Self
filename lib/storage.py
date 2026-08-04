@@ -1,0 +1,143 @@
+from __future__ import annotations
+
+import hashlib
+import json
+from pathlib import Path
+from typing import Any, Dict, List, Optional
+
+ROOT = Path(__file__).resolve().parent.parent
+DATA_DIR = ROOT / "data"
+WIKI_DIR = ROOT / "wiki"
+RAW_DIR = ROOT / "raw"
+
+
+def ensure_project_structure() -> None:
+    """Create the standard project directory layout."""
+    for directory in [RAW_DIR, WIKI_DIR, DATA_DIR, ROOT / "lib", ROOT / "static"]:
+        directory.mkdir(parents=True, exist_ok=True)
+    for para_dir in ["Projects", "Areas", "Resources", "Archives"]:
+        (WIKI_DIR / para_dir).mkdir(parents=True, exist_ok=True)
+
+
+def generate_capture_id() -> str:
+    """Generate a unique capture ID with a date prefix."""
+    from datetime import datetime
+    import uuid
+
+    timestamp = datetime.now().strftime("%Y-%m-%d")
+    return f"{timestamp}_{uuid.uuid4().hex[:8]}"
+
+
+def content_hash(data: str) -> str:
+    """Return a SHA-256 hash of the given string data."""
+    return hashlib.sha256(data.encode("utf-8")).hexdigest()
+
+
+def write_raw_capture(meta: Dict[str, Any], content: str) -> Path:
+    """Write a raw capture's metadata and content to disk."""
+    ensure_project_structure()
+    capture_id = meta.get("id") or generate_capture_id()
+    meta["id"] = capture_id
+    capture_dir = RAW_DIR / capture_id
+    capture_dir.mkdir(parents=True, exist_ok=True)
+
+    content_path = capture_dir / "content.txt"
+    content_path.write_text(content, encoding="utf-8")
+
+    meta_path = capture_dir / "meta.json"
+    meta_path.write_text(json.dumps(meta, indent=2), encoding="utf-8")
+
+    return content_path
+
+
+def read_raw_captures() -> List[Dict[str, Any]]:
+    """Read all raw captures from the raw/ directory."""
+    ensure_project_structure()
+    captures: List[Dict[str, Any]] = []
+    for capture_dir in RAW_DIR.iterdir():
+        if not capture_dir.is_dir():
+            continue
+        meta_path = capture_dir / "meta.json"
+        content_path = capture_dir / "content.txt"
+        if not meta_path.exists():
+            continue
+        try:
+            meta = json.loads(meta_path.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        content = ""
+        if content_path.exists():
+            content = content_path.read_text(encoding="utf-8")
+        captures.append({"meta": meta, "content": content})
+    return captures
+
+
+def load_index() -> Dict[str, Any]:
+    """Load the processing index from data/index.json."""
+    index_path = DATA_DIR / "index.json"
+    if not index_path.exists():
+        return {
+            "raw_processed": {},
+            "embeddings_version": "all-MiniLM-L6-v2",
+            "last_graph_build": None,
+        }
+    return json.loads(index_path.read_text(encoding="utf-8"))
+
+
+def save_index(index: Dict[str, Any]) -> None:
+    """Save the processing index to data/index.json."""
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    (DATA_DIR / "index.json").write_text(
+        json.dumps(index, indent=2), encoding="utf-8"
+    )
+
+
+def write_wiki_note(note: Dict[str, Any]) -> Path:
+    """Write a wiki note in markdown format with frontmatter."""
+    ensure_project_structure()
+    para = note.get("para", "Archives")
+    note_path = WIKI_DIR / para / f"{note['id']}.md"
+    frontmatter = [
+        "---",
+        f"id: {note['id']}",
+        f"raw_id: {note.get('raw_id', '')}",
+        f"para: {para}",
+        f"tags: {json.dumps(note.get('tags', []))}",
+        f"summary: {json.dumps(note.get('summary', ''))}",
+        f"created: {note.get('created', '')}",
+        f"links: {json.dumps(note.get('links', []))}",
+        "---",
+        "",
+        note.get("body", ""),
+        "",
+    ]
+    note_path.write_text("\n".join(frontmatter), encoding="utf-8")
+    return note_path
+
+
+def read_wiki_notes() -> List[Dict[str, Any]]:
+    """Read all wiki notes from the wiki/ directory."""
+    ensure_project_structure()
+    notes: List[Dict[str, Any]] = []
+    for path in WIKI_DIR.rglob("*.md"):
+        text = path.read_text(encoding="utf-8")
+        if text.startswith("---"):
+            parts = text.split("\n---\n", 1)
+            if len(parts) == 2:
+                frontmatter = parts[0].strip().splitlines()
+                body = parts[1].strip()
+                note: Dict[str, Any] = {"path": str(path), "body": body}
+                for line in frontmatter[1:]:
+                    if ":" in line:
+                        key, value = line.split(":", 1)
+                        key = key.strip()
+                        raw_value = value.strip()
+                        if raw_value.startswith(("\"", "[", "{")) or raw_value in {"null", "true", "false"}:
+                            try:
+                                note[key] = json.loads(raw_value)
+                            except json.JSONDecodeError:
+                                note[key] = raw_value.strip('"')
+                        else:
+                            note[key] = raw_value
+                notes.append(note)
+    return notes

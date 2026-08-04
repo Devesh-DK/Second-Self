@@ -1,0 +1,2275 @@
+{
+  "nodes": [
+    {
+      "id": "19cf70de",
+      "label": "LinkedIn profile for Devesh Pandey",
+      "para": "Archives",
+      "tags": [
+        "archives"
+      ],
+      "summary": "LinkedIn profile for Devesh Pandey",
+      "content_preview": "www.linkedin.com/in/devesh-pandey-254776270",
+      "group": "Archives"
+    },
+    {
+      "id": "2050ff34",
+      "label": "Manual note",
+      "para": "Archives",
+      "tags": [
+        "note"
+      ],
+      "summary": "Manual note",
+      "content_preview": "Short note ## Related - [[26576fa7]]",
+      "group": "Archives"
+    },
+    {
+      "id": "23d247b1",
+      "label": "Bookmark for example.com",
+      "para": "Archives",
+      "tags": [
+        "archives"
+      ],
+      "summary": "Bookmark for example.com",
+      "content_preview": "https://example.com ## Related - [[5ff8309b]] - [[f491f67b]] - [[c7bc0e8d]] - [[d484e8d2]] - [[99e9e59d]]",
+      "group": "Archives"
+    },
+    {
+      "id": "26576fa7",
+      "label": "Manual note",
+      "para": "Archives",
+      "tags": [
+        "archives"
+      ],
+      "summary": "Manual note",
+      "content_preview": "manual ## Related - [[6a4cfa84]] - [[5f76ace0]] - [[83121986]] - [[9e89491a]] - [[2050ff34]]",
+      "group": "Archives"
+    },
+    {
+      "id": "30dd26cc",
+      "label": "assistant test capture",
+      "para": "Archives",
+      "tags": [
+        "archives"
+      ],
+      "summary": "assistant test capture",
+      "content_preview": "assistant test capture",
+      "group": "Archives"
+    },
+    {
+      "id": "43e65fde",
+      "label": "Todo to write tests for capture module",
+      "para": "Archives",
+      "tags": [
+        "archives"
+      ],
+      "summary": "Todo to write tests for capture module",
+      "content_preview": "Todo: write tests for capture module",
+      "group": "Archives"
+    },
+    {
+      "id": "5a4d1d38",
+      "label": "Note about SecondSelf \u2014 Phase 0 / Phase 1",
+      "para": "Archives",
+      "tags": [
+        "archives"
+      ],
+      "summary": "Note about SecondSelf \u2014 Phase 0 / Phase 1",
+      "content_preview": "# SecondSelf \u2014 Phase 0 / Phase 1 Quick start 1. Create a virtual environment and install requirements: ```powershell python -m venv .venv .venv\\Scripts\\Activ...",
+      "group": "Archives"
+    },
+    {
+      "id": "5b26bcfb",
+      "label": "Manual note",
+      "para": "Archives",
+      "tags": [
+        "archives"
+      ],
+      "summary": "Manual note",
+      "content_preview": "manual",
+      "group": "Archives"
+    },
+    {
+      "id": "5f76ace0",
+      "label": "Manual note",
+      "para": "Archives",
+      "tags": [
+        "archives"
+      ],
+      "summary": "Manual note",
+      "content_preview": "manual ## Related - [[6a4cfa84]] - [[26576fa7]] - [[9e89491a]]",
+      "group": "Archives"
+    },
+    {
+      "id": "5ff8309b",
+      "label": "Bookmark for example.com",
+      "para": "Archives",
+      "tags": [
+        "archives"
+      ],
+      "summary": "Bookmark for example.com",
+      "content_preview": "https://example.com ## Related - [[f491f67b]] - [[99e9e59d]] - [[23d247b1]] - [[c7bc0e8d]] - [[e85818fa]] - [[d484e8d2]]",
+      "group": "Archives"
+    },
+    {
+      "id": "603d82b7",
+      "label": "Bookmark for huggingface.co/sentence transformers",
+      "para": "Archives",
+      "tags": [
+        "archives"
+      ],
+      "summary": "Bookmark for huggingface.co/sentence transformers",
+      "content_preview": "https://huggingface.co/sentence-transformers ## Related - [[795a20e9]] - [[854beaff]]",
+      "group": "Archives"
+    },
+    {
+      "id": "6a4cfa84",
+      "label": "Manual note",
+      "para": "Archives",
+      "tags": [
+        "archives"
+      ],
+      "summary": "Manual note",
+      "content_preview": "manual ## Related - [[26576fa7]] - [[5f76ace0]] - [[9e89491a]]",
+      "group": "Archives"
+    },
+    {
+      "id": "6e38bbad",
+      "label": "Remember to review the embeddings paper",
+      "para": "Archives",
+      "tags": [
+        "archives"
+      ],
+      "summary": "Remember to review the embeddings paper",
+      "content_preview": "Remember to review the embeddings paper",
+      "group": "Archives"
+    },
+    {
+      "id": "795a20e9",
+      "label": "Bookmark for huggingface.co/sentence transformers",
+      "para": "Archives",
+      "tags": [
+        "archives"
+      ],
+      "summary": "Bookmark for huggingface.co/sentence transformers",
+      "content_preview": "https://huggingface.co/sentence-transformers ## Related - [[603d82b7]] - [[854beaff]]",
+      "group": "Archives"
+    },
+    {
+      "id": "7c5c574e",
+      "label": "Validation note",
+      "para": "Archives",
+      "tags": [
+        "note"
+      ],
+      "summary": "Validation note",
+      "content_preview": "Validation note",
+      "group": "Archives"
+    },
+    {
+      "id": "83121986",
+      "label": "Manual note",
+      "para": "Archives",
+      "tags": [
+        "archives"
+      ],
+      "summary": "Manual note",
+      "content_preview": "manual ## Related - [[9e89491a]] - [[26576fa7]] - [[d8ede9e1]]",
+      "group": "Archives"
+    },
+    {
+      "id": "854beaff",
+      "label": "Bookmark for huggingface.co/sentence transformers",
+      "para": "Archives",
+      "tags": [
+        "archives"
+      ],
+      "summary": "Bookmark for huggingface.co/sentence transformers",
+      "content_preview": "https://huggingface.co/sentence-transformers ## Related - [[795a20e9]] - [[603d82b7]]",
+      "group": "Archives"
+    },
+    {
+      "id": "8c5ea8b9",
+      "label": "Note about SecondSelf \u2014 Phase 0 / Phase 1",
+      "para": "Archives",
+      "tags": [
+        "archives"
+      ],
+      "summary": "Note about SecondSelf \u2014 Phase 0 / Phase 1",
+      "content_preview": "# SecondSelf \u2014 Phase 0 / Phase 1 Quick start 1. Create a virtual environment and install requirements: ```powershell python -m venv .venv .venv\\Scripts\\Activ...",
+      "group": "Archives"
+    },
+    {
+      "id": "9029d80c",
+      "label": "Reminder: backup laptop",
+      "para": "Archives",
+      "tags": [
+        "archives"
+      ],
+      "summary": "Reminder: backup laptop",
+      "content_preview": "Reminder: backup laptop",
+      "group": "Archives"
+    },
+    {
+      "id": "90ed3148",
+      "label": "Second Devesh",
+      "para": "Archives",
+      "tags": [
+        "archives"
+      ],
+      "summary": "Second Devesh",
+      "content_preview": "Second Devesh",
+      "group": "Archives"
+    },
+    {
+      "id": "92498b7a",
+      "label": "Quote: The only limit is the one you set yourself.",
+      "para": "Archives",
+      "tags": [
+        "archives"
+      ],
+      "summary": "Quote: The only limit is the one you set yourself.",
+      "content_preview": "Quote: The only limit is the one you set yourself.",
+      "group": "Archives"
+    },
+    {
+      "id": "99e9e59d",
+      "label": "Bookmark for example.com",
+      "para": "Archives",
+      "tags": [
+        "archives"
+      ],
+      "summary": "Bookmark for example.com",
+      "content_preview": "Example https://example.com ## Related - [[5ff8309b]] - [[d484e8d2]] - [[f491f67b]] - [[c7bc0e8d]] - [[23d247b1]] - [[e85818fa]]",
+      "group": "Archives"
+    },
+    {
+      "id": "9e89491a",
+      "label": "Manual note",
+      "para": "Archives",
+      "tags": [
+        "archives"
+      ],
+      "summary": "Manual note",
+      "content_preview": "manual ## Related - [[d8ede9e1]] - [[83121986]] - [[26576fa7]] - [[6a4cfa84]] - [[5f76ace0]]",
+      "group": "Archives"
+    },
+    {
+      "id": "b1586915",
+      "label": "Research: embeddings vs. sparse retrieval",
+      "para": "Archives",
+      "tags": [
+        "archives"
+      ],
+      "summary": "Research: embeddings vs. sparse retrieval",
+      "content_preview": "Research: embeddings vs. sparse retrieval",
+      "group": "Archives"
+    },
+    {
+      "id": "c4f8049f",
+      "label": "Buy groceries: milk, eggs, bread",
+      "para": "Archives",
+      "tags": [
+        "archives"
+      ],
+      "summary": "Buy groceries: milk, eggs, bread",
+      "content_preview": "Buy groceries: milk, eggs, bread",
+      "group": "Archives"
+    },
+    {
+      "id": "c7bc0e8d",
+      "label": "Bookmark for example.com",
+      "para": "Archives",
+      "tags": [
+        "archives"
+      ],
+      "summary": "Bookmark for example.com",
+      "content_preview": "https://example.com ## Related - [[f491f67b]] - [[5ff8309b]] - [[99e9e59d]] - [[23d247b1]] - [[d484e8d2]] - [[e85818fa]]",
+      "group": "Archives"
+    },
+    {
+      "id": "d484e8d2",
+      "label": "Bookmark for example.com",
+      "para": "Archives",
+      "tags": [
+        "archives"
+      ],
+      "summary": "Bookmark for example.com",
+      "content_preview": "Example https://example.com ## Related - [[99e9e59d]] - [[23d247b1]] - [[f491f67b]] - [[c7bc0e8d]] - [[5ff8309b]] - [[d1dcbe94]]",
+      "group": "Archives"
+    },
+    {
+      "id": "d8bdc8b9",
+      "label": "binarydata",
+      "para": "Archives",
+      "tags": [
+        "archives"
+      ],
+      "summary": "binarydata",
+      "content_preview": "binarydata",
+      "group": "Archives"
+    },
+    {
+      "id": "d8ede9e1",
+      "label": "Manual note",
+      "para": "Archives",
+      "tags": [
+        "archives"
+      ],
+      "summary": "Manual note",
+      "content_preview": "manual ## Related - [[9e89491a]] - [[83121986]]",
+      "group": "Archives"
+    },
+    {
+      "id": "db8bc5e9",
+      "label": "Idea: small CLI tool for notes",
+      "para": "Archives",
+      "tags": [
+        "note",
+        "idea"
+      ],
+      "summary": "Idea: small CLI tool for notes",
+      "content_preview": "Idea: small CLI tool for notes",
+      "group": "Archives"
+    },
+    {
+      "id": "e083b8e7",
+      "label": "Draft: email to collaborator",
+      "para": "Archives",
+      "tags": [
+        "archives"
+      ],
+      "summary": "Draft: email to collaborator",
+      "content_preview": "Draft: email to collaborator",
+      "group": "Archives"
+    },
+    {
+      "id": "e70cfe16",
+      "label": "Sample note for validation",
+      "para": "Archives",
+      "tags": [
+        "note"
+      ],
+      "summary": "Sample note for validation",
+      "content_preview": "Sample note for validation",
+      "group": "Archives"
+    },
+    {
+      "id": "e85818fa",
+      "label": "Bookmark for example.com",
+      "para": "Archives",
+      "tags": [
+        "archives"
+      ],
+      "summary": "Bookmark for example.com",
+      "content_preview": "https://example.com ## Related - [[5ff8309b]] - [[99e9e59d]] - [[c7bc0e8d]]",
+      "group": "Archives"
+    },
+    {
+      "id": "f01d7e4b",
+      "label": "Note about SecondSelf \u2014 Phase 0 / Phase 1",
+      "para": "Archives",
+      "tags": [
+        "archives"
+      ],
+      "summary": "Note about SecondSelf \u2014 Phase 0 / Phase 1",
+      "content_preview": "# SecondSelf \u2014 Phase 0 / Phase 1 Quick start 1. Create a virtual environment and install requirements: ```powershell python -m venv .venv .venv\\Scripts\\Activ...",
+      "group": "Archives"
+    },
+    {
+      "id": "f491f67b",
+      "label": "Bookmark for example.com",
+      "para": "Archives",
+      "tags": [
+        "archives"
+      ],
+      "summary": "Bookmark for example.com",
+      "content_preview": "https://example.com ## Related - [[c7bc0e8d]] - [[5ff8309b]] - [[99e9e59d]] - [[23d247b1]] - [[d484e8d2]] - [[d1dcbe94]]",
+      "group": "Archives"
+    },
+    {
+      "id": "f9f42c9f",
+      "label": "Note about SecondSelf \u2014 Phase 0 / Phase 1",
+      "para": "Archives",
+      "tags": [
+        "archives"
+      ],
+      "summary": "Note about SecondSelf \u2014 Phase 0 / Phase 1",
+      "content_preview": "# SecondSelf \u2014 Phase 0 / Phase 1 Quick start 1. Create a virtual environment and install requirements: ```powershell python -m venv .venv .venv\\Scripts\\Activ...",
+      "group": "Archives"
+    },
+    {
+      "id": "05518af2",
+      "label": "Review the finance habits for the quarter",
+      "para": "Areas",
+      "tags": [
+        "finance"
+      ],
+      "summary": "Review the finance habits for the quarter",
+      "content_preview": "Review the finance habits for the quarter ## Related - [[def670b4]] - [[e69eca4e]] - [[fe8102f3]] - [[650c3448]] - [[cc208a4e]] - [[e5c764c2]] - [[483699b1]]...",
+      "group": "Areas"
+    },
+    {
+      "id": "30a9207c",
+      "label": "Review the finance habits for the quarter",
+      "para": "Areas",
+      "tags": [
+        "finance"
+      ],
+      "summary": "Review the finance habits for the quarter",
+      "content_preview": "Review the finance habits for the quarter ## Related - [[cc208a4e]] - [[e5c764c2]] - [[483699b1]] - [[05518af2]] - [[650c3448]] - [[def670b4]] - [[681109dd]]...",
+      "group": "Areas"
+    },
+    {
+      "id": "483699b1",
+      "label": "Review the finance habits for the quarter",
+      "para": "Areas",
+      "tags": [
+        "finance"
+      ],
+      "summary": "Review the finance habits for the quarter",
+      "content_preview": "Review the finance habits for the quarter ## Related - [[30a9207c]] - [[e5c764c2]] - [[cc208a4e]] - [[05518af2]] - [[650c3448]] - [[def670b4]] - [[681109dd]]...",
+      "group": "Areas"
+    },
+    {
+      "id": "650c3448",
+      "label": "Review the finance habits for the quarter",
+      "para": "Areas",
+      "tags": [
+        "finance"
+      ],
+      "summary": "Review the finance habits for the quarter",
+      "content_preview": "Review the finance habits for the quarter ## Related - [[05518af2]] - [[def670b4]] - [[e69eca4e]] - [[681109dd]] - [[e5c764c2]] - [[483699b1]] - [[30a9207c]]...",
+      "group": "Areas"
+    },
+    {
+      "id": "681109dd",
+      "label": "Review the finance habits for the quarter",
+      "para": "Areas",
+      "tags": [
+        "finance"
+      ],
+      "summary": "Review the finance habits for the quarter",
+      "content_preview": "Review the finance habits for the quarter ## Related - [[650c3448]] - [[def670b4]] - [[05518af2]] - [[483699b1]] - [[fe8102f3]] - [[e69eca4e]] - [[e5c764c2]]...",
+      "group": "Areas"
+    },
+    {
+      "id": "cc208a4e",
+      "label": "Review the finance habits for the quarter",
+      "para": "Areas",
+      "tags": [
+        "finance"
+      ],
+      "summary": "Review the finance habits for the quarter",
+      "content_preview": "Review the finance habits for the quarter ## Related - [[e5c764c2]] - [[30a9207c]] - [[483699b1]] - [[05518af2]] - [[def670b4]] - [[e69eca4e]] - [[650c3448]]...",
+      "group": "Areas"
+    },
+    {
+      "id": "def670b4",
+      "label": "Review the finance habits for the quarter",
+      "para": "Areas",
+      "tags": [
+        "finance"
+      ],
+      "summary": "Review the finance habits for the quarter",
+      "content_preview": "Review the finance habits for the quarter ## Related - [[05518af2]] - [[e69eca4e]] - [[fe8102f3]] - [[650c3448]] - [[681109dd]] - [[cc208a4e]] - [[e5c764c2]]...",
+      "group": "Areas"
+    },
+    {
+      "id": "e5c764c2",
+      "label": "Review the finance habits for the quarter",
+      "para": "Areas",
+      "tags": [
+        "finance"
+      ],
+      "summary": "Review the finance habits for the quarter",
+      "content_preview": "Review the finance habits for the quarter ## Related - [[cc208a4e]] - [[30a9207c]] - [[483699b1]] - [[05518af2]] - [[650c3448]] - [[def670b4]] - [[e69eca4e]]...",
+      "group": "Areas"
+    },
+    {
+      "id": "e69eca4e",
+      "label": "Review the finance habits for the quarter",
+      "para": "Areas",
+      "tags": [
+        "finance"
+      ],
+      "summary": "Review the finance habits for the quarter",
+      "content_preview": "Review the finance habits for the quarter ## Related - [[def670b4]] - [[05518af2]] - [[fe8102f3]] - [[650c3448]] - [[cc208a4e]] - [[e5c764c2]] - [[681109dd]]...",
+      "group": "Areas"
+    },
+    {
+      "id": "fe8102f3",
+      "label": "Review the finance habits for the quarter",
+      "para": "Areas",
+      "tags": [
+        "finance"
+      ],
+      "summary": "Review the finance habits for the quarter",
+      "content_preview": "Review the finance habits for the quarter ## Related - [[05518af2]] - [[def670b4]] - [[e69eca4e]] - [[cc208a4e]] - [[650c3448]] - [[681109dd]] - [[e5c764c2]]...",
+      "group": "Areas"
+    },
+    {
+      "id": "1fee7501",
+      "label": "Plan the launch roadmap for the new onboarding project",
+      "para": "Projects",
+      "tags": [
+        "project",
+        "launch",
+        "plan",
+        "roadmap"
+      ],
+      "summary": "Plan the launch roadmap for the new onboarding project",
+      "content_preview": "Plan the launch roadmap for the new onboarding project ## Related - [[751febbd]] - [[953824e4]] - [[60049caf]] - [[ec45f0d4]] - [[a0d86d76]] - [[cb488115]] -...",
+      "group": "Projects"
+    },
+    {
+      "id": "416d3503",
+      "label": "Plan the launch roadmap for the new onboarding project",
+      "para": "Projects",
+      "tags": [
+        "project",
+        "launch",
+        "plan",
+        "roadmap"
+      ],
+      "summary": "Plan the launch roadmap for the new onboarding project",
+      "content_preview": "Plan the launch roadmap for the new onboarding project ## Related - [[a0d86d76]] - [[509f912a]] - [[93cc86aa]] - [[953824e4]] - [[cb488115]] - [[751febbd]] -...",
+      "group": "Projects"
+    },
+    {
+      "id": "509f912a",
+      "label": "Plan the launch roadmap for the new onboarding project",
+      "para": "Projects",
+      "tags": [
+        "project",
+        "launch",
+        "plan",
+        "roadmap"
+      ],
+      "summary": "Plan the launch roadmap for the new onboarding project",
+      "content_preview": "Plan the launch roadmap for the new onboarding project ## Related - [[416d3503]] - [[a0d86d76]] - [[93cc86aa]] - [[953824e4]] - [[60049caf]] - [[cb488115]] -...",
+      "group": "Projects"
+    },
+    {
+      "id": "57e08313",
+      "label": "I am working on Second Self project on 2nd August.",
+      "para": "Projects",
+      "tags": [
+        "project"
+      ],
+      "summary": "I am working on Second Self project on 2nd August.",
+      "content_preview": "I am working on Second Self project on 2nd August.",
+      "group": "Projects"
+    },
+    {
+      "id": "60049caf",
+      "label": "Plan the launch roadmap for the new onboarding project",
+      "para": "Projects",
+      "tags": [
+        "project",
+        "launch",
+        "plan",
+        "roadmap"
+      ],
+      "summary": "Plan the launch roadmap for the new onboarding project",
+      "content_preview": "Plan the launch roadmap for the new onboarding project ## Related - [[953824e4]] - [[1fee7501]] - [[cb488115]] - [[509f912a]] - [[751febbd]] - [[ec45f0d4]] -...",
+      "group": "Projects"
+    },
+    {
+      "id": "6608277b",
+      "label": "Note about SecondSelf Architecture",
+      "para": "Projects",
+      "tags": [
+        "note"
+      ],
+      "summary": "Note about SecondSelf Architecture",
+      "content_preview": "# SecondSelf Architecture ## Overview SecondSelf is a knowledge management system that captures, classifies, links, visualizes, and queries personal knowledg...",
+      "group": "Projects"
+    },
+    {
+      "id": "751febbd",
+      "label": "Plan the launch roadmap for the new onboarding project",
+      "para": "Projects",
+      "tags": [
+        "project",
+        "launch",
+        "plan",
+        "roadmap"
+      ],
+      "summary": "Plan the launch roadmap for the new onboarding project",
+      "content_preview": "Plan the launch roadmap for the new onboarding project ## Related - [[1fee7501]] - [[953824e4]] - [[cb488115]] - [[60049caf]] - [[a0d86d76]] - [[416d3503]] -...",
+      "group": "Projects"
+    },
+    {
+      "id": "8692ea3e",
+      "label": "Meeting notes: discuss roadmap",
+      "para": "Projects",
+      "tags": [
+        "roadmap",
+        "note"
+      ],
+      "summary": "Meeting notes: discuss roadmap",
+      "content_preview": "Meeting notes: discuss roadmap",
+      "group": "Projects"
+    },
+    {
+      "id": "93cc86aa",
+      "label": "Plan the launch roadmap for the new onboarding project",
+      "para": "Projects",
+      "tags": [
+        "project",
+        "launch",
+        "plan",
+        "roadmap"
+      ],
+      "summary": "Plan the launch roadmap for the new onboarding project",
+      "content_preview": "Plan the launch roadmap for the new onboarding project ## Related - [[a0d86d76]] - [[509f912a]] - [[416d3503]] - [[953824e4]] - [[cb488115]] - [[751febbd]] -...",
+      "group": "Projects"
+    },
+    {
+      "id": "953824e4",
+      "label": "Plan the launch roadmap for the new onboarding project",
+      "para": "Projects",
+      "tags": [
+        "project",
+        "launch",
+        "plan",
+        "roadmap"
+      ],
+      "summary": "Plan the launch roadmap for the new onboarding project",
+      "content_preview": "Plan the launch roadmap for the new onboarding project ## Related - [[751febbd]] - [[416d3503]] - [[1fee7501]] - [[93cc86aa]] - [[cb488115]] - [[a0d86d76]] -...",
+      "group": "Projects"
+    },
+    {
+      "id": "a0d86d76",
+      "label": "Plan the launch roadmap for the new onboarding project",
+      "para": "Projects",
+      "tags": [
+        "project",
+        "launch",
+        "plan",
+        "roadmap"
+      ],
+      "summary": "Plan the launch roadmap for the new onboarding project",
+      "content_preview": "Plan the launch roadmap for the new onboarding project ## Related - [[93cc86aa]] - [[416d3503]] - [[509f912a]] - [[953824e4]] - [[cb488115]] - [[751febbd]] -...",
+      "group": "Projects"
+    },
+    {
+      "id": "cb488115",
+      "label": "Plan the launch roadmap for the new onboarding project",
+      "para": "Projects",
+      "tags": [
+        "project",
+        "launch",
+        "plan",
+        "roadmap"
+      ],
+      "summary": "Plan the launch roadmap for the new onboarding project",
+      "content_preview": "Plan the launch roadmap for the new onboarding project ## Related - [[953824e4]] - [[751febbd]] - [[a0d86d76]] - [[60049caf]] - [[509f912a]] - [[416d3503]] -...",
+      "group": "Projects"
+    },
+    {
+      "id": "ec45f0d4",
+      "label": "Plan the launch roadmap for the new onboarding project",
+      "para": "Projects",
+      "tags": [
+        "project",
+        "launch",
+        "plan",
+        "roadmap"
+      ],
+      "summary": "Plan the launch roadmap for the new onboarding project",
+      "content_preview": "Plan the launch roadmap for the new onboarding project ## Related - [[953824e4]] - [[1fee7501]] - [[751febbd]] - [[60049caf]] - [[cb488115]] - [[416d3503]] -...",
+      "group": "Projects"
+    },
+    {
+      "id": "fd944e02",
+      "label": "Note about project goals",
+      "para": "Projects",
+      "tags": [
+        "project",
+        "note"
+      ],
+      "summary": "Note about project goals",
+      "content_preview": "Note about project goals",
+      "group": "Projects"
+    },
+    {
+      "id": "d1dcbe94",
+      "label": "Bookmark for example.com/article",
+      "para": "Resources",
+      "tags": [
+        "resources"
+      ],
+      "summary": "Bookmark for example.com/article",
+      "content_preview": "Bookmark: https://example.com/article ## Related - [[d484e8d2]] - [[f491f67b]]",
+      "group": "Resources"
+    }
+  ],
+  "edges": [
+    {
+      "source": "05518af2",
+      "target": "30a9207c",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "05518af2",
+      "target": "483699b1",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "05518af2",
+      "target": "650c3448",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "05518af2",
+      "target": "681109dd",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "05518af2",
+      "target": "cc208a4e",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "05518af2",
+      "target": "def670b4",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "05518af2",
+      "target": "e5c764c2",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "05518af2",
+      "target": "e69eca4e",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "05518af2",
+      "target": "fe8102f3",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "1fee7501",
+      "target": "416d3503",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "1fee7501",
+      "target": "509f912a",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "1fee7501",
+      "target": "60049caf",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "1fee7501",
+      "target": "751febbd",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "1fee7501",
+      "target": "93cc86aa",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "1fee7501",
+      "target": "953824e4",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "1fee7501",
+      "target": "a0d86d76",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "1fee7501",
+      "target": "cb488115",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "1fee7501",
+      "target": "ec45f0d4",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "2050ff34",
+      "target": "26576fa7",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "23d247b1",
+      "target": "5ff8309b",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "23d247b1",
+      "target": "99e9e59d",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "23d247b1",
+      "target": "c7bc0e8d",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "23d247b1",
+      "target": "d484e8d2",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "23d247b1",
+      "target": "f491f67b",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "26576fa7",
+      "target": "2050ff34",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "26576fa7",
+      "target": "5f76ace0",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "26576fa7",
+      "target": "6a4cfa84",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "26576fa7",
+      "target": "83121986",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "26576fa7",
+      "target": "9e89491a",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "30a9207c",
+      "target": "05518af2",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "30a9207c",
+      "target": "483699b1",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "30a9207c",
+      "target": "650c3448",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "30a9207c",
+      "target": "681109dd",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "30a9207c",
+      "target": "cc208a4e",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "30a9207c",
+      "target": "def670b4",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "30a9207c",
+      "target": "e5c764c2",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "30a9207c",
+      "target": "e69eca4e",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "30a9207c",
+      "target": "fe8102f3",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "416d3503",
+      "target": "1fee7501",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "416d3503",
+      "target": "509f912a",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "416d3503",
+      "target": "60049caf",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "416d3503",
+      "target": "751febbd",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "416d3503",
+      "target": "93cc86aa",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "416d3503",
+      "target": "953824e4",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "416d3503",
+      "target": "a0d86d76",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "416d3503",
+      "target": "cb488115",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "416d3503",
+      "target": "ec45f0d4",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "483699b1",
+      "target": "05518af2",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "483699b1",
+      "target": "30a9207c",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "483699b1",
+      "target": "650c3448",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "483699b1",
+      "target": "681109dd",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "483699b1",
+      "target": "cc208a4e",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "483699b1",
+      "target": "def670b4",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "483699b1",
+      "target": "e5c764c2",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "483699b1",
+      "target": "e69eca4e",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "483699b1",
+      "target": "fe8102f3",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "509f912a",
+      "target": "1fee7501",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "509f912a",
+      "target": "416d3503",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "509f912a",
+      "target": "60049caf",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "509f912a",
+      "target": "751febbd",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "509f912a",
+      "target": "93cc86aa",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "509f912a",
+      "target": "953824e4",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "509f912a",
+      "target": "a0d86d76",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "509f912a",
+      "target": "cb488115",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "509f912a",
+      "target": "ec45f0d4",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "5a4d1d38",
+      "target": "8c5ea8b9",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "5a4d1d38",
+      "target": "f01d7e4b",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "5a4d1d38",
+      "target": "f9f42c9f",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "5f76ace0",
+      "target": "26576fa7",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "5f76ace0",
+      "target": "6a4cfa84",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "5f76ace0",
+      "target": "9e89491a",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "5ff8309b",
+      "target": "23d247b1",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "5ff8309b",
+      "target": "99e9e59d",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "5ff8309b",
+      "target": "c7bc0e8d",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "5ff8309b",
+      "target": "d484e8d2",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "5ff8309b",
+      "target": "e85818fa",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "5ff8309b",
+      "target": "f491f67b",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "60049caf",
+      "target": "1fee7501",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "60049caf",
+      "target": "416d3503",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "60049caf",
+      "target": "509f912a",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "60049caf",
+      "target": "751febbd",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "60049caf",
+      "target": "93cc86aa",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "60049caf",
+      "target": "953824e4",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "60049caf",
+      "target": "a0d86d76",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "60049caf",
+      "target": "cb488115",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "60049caf",
+      "target": "ec45f0d4",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "603d82b7",
+      "target": "795a20e9",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "603d82b7",
+      "target": "854beaff",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "650c3448",
+      "target": "05518af2",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "650c3448",
+      "target": "30a9207c",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "650c3448",
+      "target": "483699b1",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "650c3448",
+      "target": "681109dd",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "650c3448",
+      "target": "cc208a4e",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "650c3448",
+      "target": "def670b4",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "650c3448",
+      "target": "e5c764c2",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "650c3448",
+      "target": "e69eca4e",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "650c3448",
+      "target": "fe8102f3",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "681109dd",
+      "target": "05518af2",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "681109dd",
+      "target": "30a9207c",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "681109dd",
+      "target": "483699b1",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "681109dd",
+      "target": "650c3448",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "681109dd",
+      "target": "cc208a4e",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "681109dd",
+      "target": "def670b4",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "681109dd",
+      "target": "e5c764c2",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "681109dd",
+      "target": "e69eca4e",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "681109dd",
+      "target": "fe8102f3",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "6a4cfa84",
+      "target": "26576fa7",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "6a4cfa84",
+      "target": "5f76ace0",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "6a4cfa84",
+      "target": "9e89491a",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "751febbd",
+      "target": "1fee7501",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "751febbd",
+      "target": "416d3503",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "751febbd",
+      "target": "509f912a",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "751febbd",
+      "target": "60049caf",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "751febbd",
+      "target": "93cc86aa",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "751febbd",
+      "target": "953824e4",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "751febbd",
+      "target": "a0d86d76",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "751febbd",
+      "target": "cb488115",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "751febbd",
+      "target": "ec45f0d4",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "795a20e9",
+      "target": "603d82b7",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "795a20e9",
+      "target": "854beaff",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "83121986",
+      "target": "26576fa7",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "83121986",
+      "target": "9e89491a",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "83121986",
+      "target": "d8ede9e1",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "854beaff",
+      "target": "603d82b7",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "854beaff",
+      "target": "795a20e9",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "8c5ea8b9",
+      "target": "5a4d1d38",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "8c5ea8b9",
+      "target": "f01d7e4b",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "8c5ea8b9",
+      "target": "f9f42c9f",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "93cc86aa",
+      "target": "1fee7501",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "93cc86aa",
+      "target": "416d3503",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "93cc86aa",
+      "target": "509f912a",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "93cc86aa",
+      "target": "60049caf",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "93cc86aa",
+      "target": "751febbd",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "93cc86aa",
+      "target": "953824e4",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "93cc86aa",
+      "target": "a0d86d76",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "93cc86aa",
+      "target": "cb488115",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "93cc86aa",
+      "target": "ec45f0d4",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "953824e4",
+      "target": "1fee7501",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "953824e4",
+      "target": "416d3503",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "953824e4",
+      "target": "509f912a",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "953824e4",
+      "target": "60049caf",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "953824e4",
+      "target": "751febbd",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "953824e4",
+      "target": "93cc86aa",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "953824e4",
+      "target": "a0d86d76",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "953824e4",
+      "target": "cb488115",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "953824e4",
+      "target": "ec45f0d4",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "99e9e59d",
+      "target": "23d247b1",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "99e9e59d",
+      "target": "5ff8309b",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "99e9e59d",
+      "target": "c7bc0e8d",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "99e9e59d",
+      "target": "d484e8d2",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "99e9e59d",
+      "target": "e85818fa",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "99e9e59d",
+      "target": "f491f67b",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "9e89491a",
+      "target": "26576fa7",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "9e89491a",
+      "target": "5f76ace0",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "9e89491a",
+      "target": "6a4cfa84",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "9e89491a",
+      "target": "83121986",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "9e89491a",
+      "target": "d8ede9e1",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "a0d86d76",
+      "target": "1fee7501",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "a0d86d76",
+      "target": "416d3503",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "a0d86d76",
+      "target": "509f912a",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "a0d86d76",
+      "target": "60049caf",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "a0d86d76",
+      "target": "751febbd",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "a0d86d76",
+      "target": "93cc86aa",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "a0d86d76",
+      "target": "953824e4",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "a0d86d76",
+      "target": "cb488115",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "a0d86d76",
+      "target": "ec45f0d4",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "c7bc0e8d",
+      "target": "23d247b1",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "c7bc0e8d",
+      "target": "5ff8309b",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "c7bc0e8d",
+      "target": "99e9e59d",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "c7bc0e8d",
+      "target": "d484e8d2",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "c7bc0e8d",
+      "target": "e85818fa",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "c7bc0e8d",
+      "target": "f491f67b",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "cb488115",
+      "target": "1fee7501",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "cb488115",
+      "target": "416d3503",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "cb488115",
+      "target": "509f912a",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "cb488115",
+      "target": "60049caf",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "cb488115",
+      "target": "751febbd",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "cb488115",
+      "target": "93cc86aa",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "cb488115",
+      "target": "953824e4",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "cb488115",
+      "target": "a0d86d76",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "cb488115",
+      "target": "ec45f0d4",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "cc208a4e",
+      "target": "05518af2",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "cc208a4e",
+      "target": "30a9207c",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "cc208a4e",
+      "target": "483699b1",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "cc208a4e",
+      "target": "650c3448",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "cc208a4e",
+      "target": "681109dd",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "cc208a4e",
+      "target": "def670b4",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "cc208a4e",
+      "target": "e5c764c2",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "cc208a4e",
+      "target": "e69eca4e",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "cc208a4e",
+      "target": "fe8102f3",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "d1dcbe94",
+      "target": "d484e8d2",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "d1dcbe94",
+      "target": "f491f67b",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "d484e8d2",
+      "target": "23d247b1",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "d484e8d2",
+      "target": "5ff8309b",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "d484e8d2",
+      "target": "99e9e59d",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "d484e8d2",
+      "target": "c7bc0e8d",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "d484e8d2",
+      "target": "d1dcbe94",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "d484e8d2",
+      "target": "f491f67b",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "d8ede9e1",
+      "target": "83121986",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "d8ede9e1",
+      "target": "9e89491a",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "def670b4",
+      "target": "05518af2",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "def670b4",
+      "target": "30a9207c",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "def670b4",
+      "target": "483699b1",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "def670b4",
+      "target": "650c3448",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "def670b4",
+      "target": "681109dd",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "def670b4",
+      "target": "cc208a4e",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "def670b4",
+      "target": "e5c764c2",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "def670b4",
+      "target": "e69eca4e",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "def670b4",
+      "target": "fe8102f3",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "e5c764c2",
+      "target": "05518af2",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "e5c764c2",
+      "target": "30a9207c",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "e5c764c2",
+      "target": "483699b1",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "e5c764c2",
+      "target": "650c3448",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "e5c764c2",
+      "target": "681109dd",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "e5c764c2",
+      "target": "cc208a4e",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "e5c764c2",
+      "target": "def670b4",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "e5c764c2",
+      "target": "e69eca4e",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "e5c764c2",
+      "target": "fe8102f3",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "e69eca4e",
+      "target": "05518af2",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "e69eca4e",
+      "target": "30a9207c",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "e69eca4e",
+      "target": "483699b1",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "e69eca4e",
+      "target": "650c3448",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "e69eca4e",
+      "target": "681109dd",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "e69eca4e",
+      "target": "cc208a4e",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "e69eca4e",
+      "target": "def670b4",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "e69eca4e",
+      "target": "e5c764c2",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "e69eca4e",
+      "target": "fe8102f3",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "e85818fa",
+      "target": "5ff8309b",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "e85818fa",
+      "target": "99e9e59d",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "e85818fa",
+      "target": "c7bc0e8d",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "ec45f0d4",
+      "target": "1fee7501",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "ec45f0d4",
+      "target": "416d3503",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "ec45f0d4",
+      "target": "509f912a",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "ec45f0d4",
+      "target": "60049caf",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "ec45f0d4",
+      "target": "751febbd",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "ec45f0d4",
+      "target": "93cc86aa",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "ec45f0d4",
+      "target": "953824e4",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "ec45f0d4",
+      "target": "a0d86d76",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "ec45f0d4",
+      "target": "cb488115",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "f01d7e4b",
+      "target": "5a4d1d38",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "f01d7e4b",
+      "target": "8c5ea8b9",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "f01d7e4b",
+      "target": "f9f42c9f",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "f491f67b",
+      "target": "23d247b1",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "f491f67b",
+      "target": "5ff8309b",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "f491f67b",
+      "target": "99e9e59d",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "f491f67b",
+      "target": "c7bc0e8d",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "f491f67b",
+      "target": "d1dcbe94",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "f491f67b",
+      "target": "d484e8d2",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "f9f42c9f",
+      "target": "5a4d1d38",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "f9f42c9f",
+      "target": "8c5ea8b9",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "f9f42c9f",
+      "target": "f01d7e4b",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "fe8102f3",
+      "target": "05518af2",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "fe8102f3",
+      "target": "30a9207c",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "fe8102f3",
+      "target": "483699b1",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "fe8102f3",
+      "target": "650c3448",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "fe8102f3",
+      "target": "681109dd",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "fe8102f3",
+      "target": "cc208a4e",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "fe8102f3",
+      "target": "def670b4",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "fe8102f3",
+      "target": "e5c764c2",
+      "weight": 1.0,
+      "type": "frontmatter"
+    },
+    {
+      "source": "fe8102f3",
+      "target": "e69eca4e",
+      "weight": 1.0,
+      "type": "frontmatter"
+    }
+  ],
+  "metadata": {
+    "generated_at": "2026-08-02T15:24:46.041665+00:00",
+    "node_count": 61,
+    "edge_count": 260
+  }
+}

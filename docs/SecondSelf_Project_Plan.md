@@ -1,5 +1,8 @@
 # SecondSelf — Your Personal AI Second Brain
 
+> **Project status: stopped**
+> This repository has been intentionally stopped as of 2026-08-01.
+
 ## PROBLEM STATEMENT:
 Every notes app fails the same way: you capture hundreds of notes, bookmarks, PDFs, and
 ideas — and then you never find them again. Information goes in, but nothing comes back out.

@@ -51,7 +51,7 @@ def write_wiki_note(note: Dict[str, Any]) -> Path:
         f"raw_id: {note.get('raw_id', '')}",
         f"para: {para}",
         f"tags: {json.dumps(note.get('tags', []))}",
-        f"summary: \"{note.get('summary', '')}\"",
+        f"summary: {json.dumps(note.get('summary', ''))}",
         f"created: {note.get('created', '')}",
         f"links: {json.dumps(note.get('links', []))}",
         "---",
