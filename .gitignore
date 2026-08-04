@@ -2,7 +2,6 @@ __pycache__/
 *.pyc
 .env
 .env.*
-!.env.example
 .pytest_cache/
 raw/*.bin
 raw/*.bin.gz
@@ -17,4 +16,7 @@ build/
 *.sqlite3
 static/
 raw/metadata.json
+raw/*.txt
+raw/manifest.txt
+raw/*.env
 sample.bin
