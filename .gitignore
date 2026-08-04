@@ -1,1 +1,1 @@
-__pycache__/ *.pyc .env .env.* !/.env.example .pytest_cache/ raw/*.bin raw/*.bin.gz raw/*.dat *.bin *.bin.gz *.dat venv/ .venv/ dist/ build/ *.sqlite3 static/ raw/metadata.json raw/*.txt raw/manifest.txt raw/*.env raw/Second Devesh.worktrees/ sample.bin
+__pycache__/ *.pyc .env !/.env.example .pytest_cache/ raw/*.bin raw/*.bin.gz raw/*.dat *.bin *.bin.gz *.dat venv/ .venv/ dist/ build/ *.sqlite3 static/ raw/metadata.json raw/*.txt raw/manifest.txt raw/*.env raw/Second Devesh.worktrees/ sample.bin
