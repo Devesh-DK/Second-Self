@@ -19,4 +19,4 @@ raw/metadata.json
 raw/*.txt
 raw/manifest.txt
 raw/*.env
-sample.bin
+sample.bin".env.example"  
