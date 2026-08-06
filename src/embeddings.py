@@ -8,22 +8,22 @@ from typing import Any, Dict, List, Optional
 
 try:
     import numpy as np
-except ImportError:  # pragma: no cover - exercised in lightweight environments
+except ImportError:  # pragma: no cover
     np = None
 
 try:
     from sentence_transformers import SentenceTransformer
-except ImportError:  # pragma: no cover - exercised in lightweight environments
+except ImportError:  # pragma: no cover
     SentenceTransformer = None
-
-from src import storage
 
 MODEL_NAME = "all-MiniLM-L6-v2"
 _MODEL: Optional[Any] = None
+ROOT = Path(__file__).resolve().parent.parent
+DATA_DIR = ROOT / "data"
 
 
 def _embedding_file(path: Optional[Path] = None) -> Path:
-    return path or storage.DATA_DIR / "embeddings.pkl"
+    return path or DATA_DIR / "embeddings.pkl"
 
 
 def load_model(model_name: str = MODEL_NAME) -> Any:
@@ -41,7 +41,7 @@ def _fallback_embedding(text: str) -> List[float]:
     if not tokens:
         return [0.0, 0.0]
     token_count = len(tokens)
-    char_sum = sum(ord(char) for char in text.lower())
+    char_sum = sum(ord(c) for c in text.lower())
     return [float(token_count), float(char_sum % 97)]
 
 
@@ -67,7 +67,6 @@ def cosine_similarity(a: List[float], b: List[float]) -> float:
         if denom == 0:
             return 0.0
         return float(np.dot(a_arr, b_arr) / denom)
-
     max_len = max(len(a), len(b))
     a_padded = a + [0.0] * (max_len - len(a))
     b_padded = b + [0.0] * (max_len - len(b))
@@ -93,5 +92,5 @@ def load_embeddings(path: Optional[Path] = None) -> Dict[str, Any]:
 
 def save_embeddings(embeddings: Dict[str, Any], path: Optional[Path] = None) -> None:
     path = _embedding_file(path)
-    storage.DATA_DIR.mkdir(parents=True, exist_ok=True)
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
     path.write_bytes(pickle.dumps(embeddings))
