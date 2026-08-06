@@ -2,7 +2,7 @@ python-dotenv>=1.0.0
 sentence-transformers>=2.2.2
 transformers>=4.30.0
 faiss-cpu
-
 streamlit>=1.20.0
 requests>=2.28.0
-
+PyPDF2>=3.0.0
+python-docx>=0.8.11
