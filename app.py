@@ -1,5 +1,4 @@
 from __future__ import annotations
-
 import json
 from pathlib import Path
 from typing import Any, Dict, List
@@ -31,25 +30,21 @@ from ask import ask as ask_notes
 from build_graph import build_graph
 from src import capture, pipeline
 
-
 def _clear_streamlit_cache() -> None:
     cache_decorator = getattr(st, "cache_data", None)
     clear_method = getattr(cache_decorator, "clear", None)
     if callable(clear_method):
         clear_method()
 
-
 @st.cache_data(show_spinner=False)
 def load_graph_data() -> Dict[str, Any]:
     return _ensure_graph_data()
-
 
 def _ensure_graph_data() -> Dict[str, Any]:
     graph_path = Path("data/graph.json")
     if graph_path.exists():
         return json.loads(graph_path.read_text(encoding="utf-8"))
     return build_graph(output_path=graph_path)
-
 
 def _render_graph_html(graph_data: Dict[str, Any]) -> str:
     nodes = json.dumps(graph_data.get("nodes", []))
@@ -97,7 +92,6 @@ def _render_graph_html(graph_data: Dict[str, Any]) -> str:
     </html>
     """
 
-
 def render() -> None:
     st.set_page_config(page_title="SecondSelf", layout="wide")
     st.title("SecondSelf")
@@ -120,6 +114,16 @@ def render() -> None:
                 st.success("Captured link")
             else:
                 st.warning("Enter a URL before capturing")
+        
+        uploaded_file = st.file_uploader("Upload file", type=["txt","pdf","docx"], help="Capture a file from your device")
+        if uploaded_file is not None:
+            temp_path = f"temp_{uploaded_file.name}"
+            with open(temp_path, "wb") as f:
+                f.write(uploaded_file.getbuffer())
+            capture.capture_file(temp_path, source="streamlit")
+            st.success("File captured")
+            import os
+            os.remove(temp_path)
 
         st.header("Process")
         if st.button("Rebuild knowledge base"):
@@ -127,9 +131,20 @@ def render() -> None:
             st.success("Knowledge base rebuilt")
             _clear_streamlit_cache()
 
+        st.header("Delete Node")
+        delete_uuid = st.text_input("Enter UUID of node to delete")
+        if st.button("Delete node"):
+            if delete_uuid:
+                # Remove from metadata
+                entries = capture.list_metadata()
+                entries = [e for e in entries if e["uuid"] != delete_uuid]
+                capture._save_metadata(entries)
+                pipeline.process()
+                st.success("Node deleted and graph rebuilt")
+
     question = st.text_input("Ask your notes", placeholder="What should I remember about my recent work?")
     ask_button = st.button("Ask")
-
+    
     if ask_button or question:
         result = ask_notes(question, top_k=5)
         st.subheader("Answer")
@@ -150,7 +165,6 @@ def render() -> None:
     st.subheader("Knowledge graph")
     graph_html = _render_graph_html(graph_data)
     components_html(graph_html, height=620, scrolling=False)
-
 
 if __name__ == "__main__":
     render()
