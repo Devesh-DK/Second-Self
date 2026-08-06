@@ -28,7 +28,7 @@ except ImportError:  # pragma: no cover - exercised in minimal environments
 
 from ask import ask as ask_notes
 from build_graph import build_graph
-from src import capture, pipeline
+from src import capture, pipeline, storage
 
 def _clear_streamlit_cache() -> None:
     cache_decorator = getattr(st, "cache_data", None)
@@ -135,12 +135,26 @@ def render() -> None:
         delete_uuid = st.text_input("Enter UUID of node to delete")
         if st.button("Delete node"):
             if delete_uuid:
-                # Remove from metadata
+                # Get the note ID (first 8 chars of UUID)
+                note_id = delete_uuid[:8]
+                
+                # 1. Remove from metadata
                 entries = capture.list_metadata()
                 entries = [e for e in entries if e["uuid"] != delete_uuid]
                 capture._save_metadata(entries)
+                
+                # 2. Delete wiki note
+                storage.delete_wiki_note(note_id)
+                
+                # 3. Delete embeddings
+                storage.delete_embeddings_for_note(note_id)
+                
+                # 4. Remove from index
+                storage.remove_from_index(delete_uuid)
+                
+                # 5. Rebuild pipeline
                 pipeline.process()
-                st.success("Node deleted and graph rebuilt")
+                st.success("Node permanently deleted and knowledge base rebuilt")
 
     question = st.text_input("Ask your notes", placeholder="What should I remember about my recent work?")
     ask_button = st.button("Ask")

@@ -88,3 +88,31 @@ def read_wiki_notes() -> List[Dict[str, Any]]:
                             note[key] = raw_value
                 notes.append(note)
     return notes
+
+
+def delete_wiki_note(note_id: str) -> bool:
+    """Delete a wiki note by its ID from all PARA directories."""
+    ensure_project_structure()
+    for para_dir in ["Projects", "Areas", "Resources", "Archives"]:
+        note_path = WIKI_DIR / para_dir / f"{note_id}.md"
+        if note_path.exists():
+            note_path.unlink()
+            return True
+    return False
+
+
+def delete_embeddings_for_note(note_id: str) -> None:
+    """Remove embeddings for a specific note from the embeddings file."""
+    from src.embeddings import load_embeddings, save_embeddings
+    embeddings = load_embeddings()
+    if "notes" in embeddings and note_id in embeddings["notes"]:
+        del embeddings["notes"][note_id]
+        save_embeddings(embeddings)
+
+
+def remove_from_index(note_id: str) -> None:
+    """Remove a note from the processing index."""
+    index = load_index()
+    if "raw_processed" in index and note_id in index["raw_processed"]:
+        del index["raw_processed"][note_id]
+    save_index(index)
