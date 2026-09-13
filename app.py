@@ -31,10 +31,8 @@ from build_graph import build_graph
 from src import capture, pipeline, storage
 
 def _clear_streamlit_cache() -> None:
-    cache_decorator = getattr(st, "cache_data", None)
-    clear_method = getattr(cache_decorator, "clear", None)
-    if callable(clear_method):
-        clear_method()
+    if hasattr(st, "cache_data"):
+        st.cache_data.clear()
 
 @st.cache_data(show_spinner=False)
 def load_graph_data() -> Dict[str, Any]:
@@ -135,8 +133,8 @@ def render() -> None:
         delete_uuid = st.text_input("Enter UUID of node to delete")
         if st.button("Delete node"):
             if delete_uuid:
-                # Get the note ID (first 8 chars of UUID)
-                note_id = delete_uuid[:8]
+                # Get the note ID (full UUID)
+                note_id = delete_uuid
                 
                 # 1. Remove from metadata
                 entries = capture.list_metadata()

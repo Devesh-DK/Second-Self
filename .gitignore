@@ -1,1 +1,54 @@
-__pycache__/ *.pyc .env !/.env.example .pytest_cache/ raw/*.bin raw/*.bin.gz raw/*.dat *.bin *.bin.gz *.dat venv/ .venv/ dist/ build/ *.sqlite3 static/ raw/metadata.json raw/*.txt raw/manifest.txt raw/*.env raw/Second Devesh.worktrees/ sample.bin
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+venv/
+.venv/
+env/
+dist/
+build/
+*.sqlite3
+
+# Environment and Secrets - NEVER COMMIT
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.keystore
+*.jks
+*.p8
+*.p12
+credentials.json
+google-services.json
+
+# Raw and data artifacts
+raw/*.bin
+raw/*.bin.gz
+raw/*.dat
+raw/*.txt
+raw/metadata.json
+raw/manifest.txt
+raw/*.env
+sample.bin
+Second Devesh.worktrees/
+
+# Node & Mobile
+node_modules/
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/web-build/
+mobile/android/
+mobile/ios/
+.metro-health-check*
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
